@@ -71,4 +71,10 @@ Output:
 ## Approaches.
 
 -   **Brute force**: Try every possible solution until you find the correct answer.
--   **Optimized**:
+    -   `O(N^2), S(1)`
+-   **Optimized** :
+    -   Use a single loop, check if current number exists in a hashmap
+    -   If it doesn't, calculate the target number minus the current number and store it as a key in the hashmap. The value should be the curren't number's index position in the array
+    -   If it does exist, return the index of the current number and the found hashMap number and break the loop.
+    -   If no match is found, return `null`
+    -   `O(N), S(N)`
