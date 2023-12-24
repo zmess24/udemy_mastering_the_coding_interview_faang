@@ -24,7 +24,7 @@ Output:
 ```
 Input:
 [1,3,7,9,2] (array)
-11 (target)
+t = 11 (target)
 
 Output:
 [3, 4]
@@ -33,8 +33,42 @@ Output:
 ```
 Input:
 [1,3,7,9,2] (array)
-25 (target)
+t = 25 (target)
 
 Output:
 null
 ```
+
+```
+Input:
+[] (array)
+t = 1 (target)
+
+Output:
+null
+```
+
+```
+Input:
+[5] (array)
+t = 5 (target)
+
+Output:
+null
+```
+
+```
+Input:
+[1, 6] (array)
+t = 7 (target)
+
+Output:
+[0, 1]
+```
+
+### Step 3. Figure out a solution without code.
+
+## Approaches.
+
+-   **Brute force**: Try every possible solution until you find the correct answer.
+-   **Optimized**:
