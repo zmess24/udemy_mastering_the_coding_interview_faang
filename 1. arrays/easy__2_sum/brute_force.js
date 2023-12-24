@@ -21,5 +21,5 @@ function twoSum(arr, t) {
 	return answer;
 }
 
-// Time Complexity: O(n*n) e.g quadratic relationship
+// Time Complexity: O(n^2) e.g quadratic relationship
 // Space Complexity: 0(1)
