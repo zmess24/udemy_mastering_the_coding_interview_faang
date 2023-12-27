@@ -1,4 +1,4 @@
-### Question
+### <a href="https://leetcode.com/problems/backspace-string-compare/">Backspace String Compare</a>
 
 Given two strings S and T, return if they are equal when both are typed out. Any '#' that appears in the string counts as a backspace.
 
@@ -111,8 +111,8 @@ False
 ```
 Input:
 
-"ab#z" => "az"
-"az#z" => "az"
+S: "ab#z" => "az"
+T: "az#z" => "az"
 
 Output:
 
@@ -122,7 +122,29 @@ False
 Logic:
 
 ```
+newS = []
+newT = []
 
+for (let i = 0; i < S.length: i++) {
+    if (currentChar === "#") {
+        newS.pop()
+    } else {
+        newS.push(currentChar)
+    }
+}
+
+for (let i = 0; i < T.length: i++) {
+    if (currentChar === "#") {
+        newT.pop()
+    } else {
+        newT.push(currentChar)
+    }
+}
+
+newS = newS.join('')
+newT = newT.join('')
+
+return newS === newT ? true : false
 
 ```
 

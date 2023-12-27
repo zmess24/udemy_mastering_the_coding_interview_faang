@@ -1,4 +1,4 @@
-### Question
+### <a href="https://leetcode.com/problems/container-with-most-water/">Container with Most Water</a>
 
 You are given an arry of positive integers where each integer represents the height of a vetical line on a chart. Find two lines which together with the x-axis forms a container that would hold the greatest amount of water. Return the area of water it would hold.
 
@@ -65,5 +65,4 @@ Output:
 
 -   **Brute force**: Try every possible solution until you find the correct answer.
     -   `O(N^2), S(1)`
--   **Optimized** : Shifting Pointers technique
-    -
+-   ## **Optimized** : Shifting Pointers Technique
