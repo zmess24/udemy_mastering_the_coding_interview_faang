@@ -1,59 +1,57 @@
-### <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a>
+### <a href="https://leetcode.com/problems/reverse-linked-list-ii/">Reverse Linked List 2</a>
 
-Given a string, find the length of the longest substring without repeating characters
+Given a linked list and numbers `m` and `n`, return it back with only positions `m` to `n` in reverse.
 
 ### Example
 
 ```
 Input:
-"abccabb" -> "abc", "cab"
+1 -> 2 -> 3 -> 4 -> 5 -> null
+m = 2
+n = 4
 
 Output:
-"3"
+1 -> 4 -> 3 -> 2 -> 5 -> null
 ```
 
 ### Step 1. Constraint Questions:
 
--   Can substrings overlap? `Yes`
+-   Is the positioning 0 or 1 index? `1 index`
+-   Will `m` and `n` always be within the bounds of the linkedList? `Yes, assume 1 <= m <= n <= length of linked list`
+-   Can we receive m and n values for the whole linked list? `Yes, we can receieve m = 1 and n = length of linked list`
 
 ### Step 2. Test Cases:
 
 ```
 Input:
-"abccabb" -> "abc", "cab"
+1 -> 2 -> 3 -> 4 -> 5 -> null
+m = 1
+n = 5
 
 Output:
-3
+5 -> 4 -> 3 -> 2 -> 1 -> null
 ```
 
 ```
 Input:
-"cccccc" -> "c"
+5 -> null
+m = 1
+n = 5
 
 Output:
-1
+5 -> 4 -> 3 -> 2 -> 1 -> null
 ```
 
 ```
+
 Input:
-""
+null
+m = 0
+n = 0
 
 Output:
 0
-```
 
-```
-Input:
-"abcbda" -> "cbda"
-
-Output:
-4
 ```
 
 ### Step 3. Figure out a solution without code.
-
-## Approaches.
-
--   **Brute force**: Try every possible solution until you find the correct answer.
-    -   `O(N^2), O(N)`
--   ## **Optimized** : Shifting Pointers Technique
