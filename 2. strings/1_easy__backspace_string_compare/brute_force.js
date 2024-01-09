@@ -3,6 +3,12 @@
  * @param {string} t
  * @return {boolean}
  */
+
+/**
+|--------------------------------------------------
+| Zac's Solution
+|--------------------------------------------------
+*/
 var backspaceCompare = function (s, t) {
 	let newS = [];
 	let newT = [];
@@ -28,3 +34,9 @@ var backspaceCompare = function (s, t) {
 
 	return newS === newT ? true : false;
 };
+
+/**
+|--------------------------------------------------
+| Udemy Solution Solution
+|--------------------------------------------------
+*/

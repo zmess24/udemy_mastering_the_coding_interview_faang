@@ -55,3 +55,18 @@ Output:
 ```
 
 ### Step 3. Figure out a solution without code.
+
+**Steps to Reverse Linked List**
+
+1. Get current node
+2. Store next value
+3. Update next value to list so far
+4. Store current node as list so far
+5. Update current node to stored next value (2)
+
+Keep reference to m-1, m, n, and n+1
+
+-   **m - 1**: is section head section we want to keep
+-   **m**: Begin reversal
+-   **n**: End reversal
+-   **n+1**:

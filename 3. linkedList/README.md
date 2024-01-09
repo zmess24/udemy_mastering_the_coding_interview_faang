@@ -13,3 +13,5 @@ class ListNode {
 	next: ListNode;
 }
 ```
+
+A `head` list node is the very first listNode, and the `tail` is the very last ListNode. Not all linkedLists have a tail

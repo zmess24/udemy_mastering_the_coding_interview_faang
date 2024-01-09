@@ -11,6 +11,13 @@
  * @param {number} right
  * @return {ListNode}
  */
+
+/**
+|--------------------------------------------------
+| Udemy Solution
+|--------------------------------------------------
+*/
+
 var reverseBetween = function (head, left, right) {
 	let currentNode = head;
 	let currentPosition = 1;
@@ -38,5 +45,24 @@ var reverseBetween = function (head, left, right) {
 	start.next = newList;
 	tail.next = currentNode;
 
-	return m > 1 ? head : newList;
+	return left > 1 ? head : newList;
+};
+
+// Space Complexity: O(1)
+// Time Complexity: O(N)
+
+/**
+|--------------------------------------------------
+| Zac's Solution
+|--------------------------------------------------
+*/
+
+var reverseBetween = function (head, left, right) {
+	let currentNode = head;
+	let currentPosition = 1;
+	let start = head;
+	let newList = null;
+	let tail = null;
+
+	while (current) {}
 };

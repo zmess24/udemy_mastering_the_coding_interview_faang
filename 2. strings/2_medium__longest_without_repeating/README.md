@@ -56,4 +56,5 @@ Output:
 
 -   **Brute force**: Try every possible solution until you find the correct answer.
     -   `O(N^2), O(N)`
--   ## **Optimized** : Shifting Pointers Technique
+-   ## **Sliding Window**:
+    -   `O(N), O(N)`

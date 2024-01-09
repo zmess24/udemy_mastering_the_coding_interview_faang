@@ -28,12 +28,10 @@ function alternate(s) {
 	let max = 0;
 
 	for (let i = 0; i < uniqueChars.length; i++) {
-		let re1 = new RegExp(s[i], "g");
-		let tempString = s.replace(re1, "");
+		let tempString = replaceAll(s[i], s);
 
 		for (let j = i + 1; uniqueChars.length; j++) {
-			let re2 = new RegExp(s[j], "g");
-			tempString = s.replace(re2, "");
+			tempString = replaceAll(s[j], s);
 			let count = checkAlternating(tempString);
 			max = Math.max(max, count);
 		}

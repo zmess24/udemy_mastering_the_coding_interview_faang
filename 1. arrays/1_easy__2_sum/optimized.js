@@ -19,5 +19,5 @@ function twoSum(arr, t) {
 	return null;
 }
 
-// Time Complexity: O(n) e.g quadratic relationship
-// Space Complexity: S(N)
+// Time Complexity: O(N) e.g quadratic relationship
+// Space Complexity: O(N)
