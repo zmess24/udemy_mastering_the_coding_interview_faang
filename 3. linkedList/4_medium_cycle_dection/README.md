@@ -4,6 +4,18 @@ Given a doubly linked list, list nodes also have a child property that can point
 
 Return the list as a single level flattened doubly linked list.
 
+Node Properities:
+
+```js
+function Node (val, prev, next, child) {
+    this.val = val;
+    this.prev = prev
+    this.next = next
+    this.child = child
+}
+
+```
+
 ### Step 1. Constraint Questions:
 
 -   Can every doublly linked list have mulitple child list nodes? `Yes, every list node can have multiple levels of children`
@@ -39,12 +51,12 @@ Output:
 
 ### Step 3. Figure out a solution without code.
 
-**Steps to Reverse Linked List**
-
-1. Get current node
-2. Store next value
-3. Update next value to list so far
-4. Store current node as list so far
+1. Get current node and store in `current_node` variable.
+2. Check if current node has a child property.
+    1. If it does, navigate to child node.
+    2. If 
+4. If it doesn't, check for next property and navigate to next node.
+5. 
 5. Update current node to stored next value (2)
 
 Keep reference to m-1, m, n, and n+1

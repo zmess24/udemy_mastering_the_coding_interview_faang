@@ -32,13 +32,13 @@ var flatten = function (head) {
 
 			// Point the next nodes previous value to the current tail.
 			if (tail.next !== null) {
-				tail.next.previous = tail;
+				tail.next.prev = tail;
 			}
 
 			// Set currentNode's next value = child node
 			currentNode.next = currentNode.child;
 			// Set CurrentNode's next previousChild  = current Node
-			currentNode.next.previous = currentNode;
+			currentNode.next.prev = currentNode;
 			// Eliminate Child Node
 			currentNode.child = null;
 		}
