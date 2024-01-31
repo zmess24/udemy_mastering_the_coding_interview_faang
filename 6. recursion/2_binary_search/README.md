@@ -56,3 +56,7 @@ a = []
 Output:
 [-1, -1]
 ```
+
+### When to use Binary Search
+
+Say you wanted to determine the minimum square footage of office space needed to fit all a company's employees easily. Then, you can conduct a binary search for that suggested size rather than sequentially checking through all the possible dimensions. Typically, you would estimate maximum and minimum sizes when conducting the binary search, then check a middle value, so you can halve the interval repeatedly until you get your answer. This process saves a lot of time, especially when considering the vast number of possible iterations of office space square foot available!
