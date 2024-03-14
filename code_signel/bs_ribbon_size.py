@@ -20,7 +20,3 @@ def solution(a, k):
             lowSize = mid
             
     return lowSize
-        
-        
-            
-    

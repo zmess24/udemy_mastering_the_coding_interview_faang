@@ -14,7 +14,7 @@ Output:
 */
 
 const searchRange = function (nums, target) {
-	if (array.length === 0) return [-1, -1];
+	if (nums.length === 0) return [-1, -1];
 	// Find first position target element in array
 	const firstPosition = binarySearch(nums, 0, nums.length - 1, target);
 	if (firstPosition === -1) return [-1, -1];

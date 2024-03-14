@@ -21,7 +21,7 @@ class Solution:
                 if nums[left] == 1:
                     # Decrement countOfOnes by 1
                     countOfOnes -= 1
-                    # Increment left by 1
+                # Increment left by 1
                 
                 left += 1
             
