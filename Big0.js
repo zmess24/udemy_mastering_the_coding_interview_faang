@@ -1,15 +1,20 @@
-async function linearO(length) {
-	function linear(length) {
-		return new Promise((resolve, reject) => {
-			let iterations = 0;
-			for (let i = 0; i < length; i++) {
-				iterations++;
-			}
-			resolve({ iterations, end: Date.now() });
-		});
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number[]}
+ */
+var maxSubsequence = function (nums, k) {
+	let n = nums.length;
+
+	// Init Window
+	window = [];
+
+	for (let i = 0; i < k; i++) {
+		window.push(nums[i]);
 	}
 
-	let start = Date.now();
-	let { iterations, end } = await linear(length);
-	return { iterations, elapsed: end - start };
-}
+	for (let i = k; i < n; i++) {
+		let current_min = Math.min(window);
+		print(current_min);
+	}
+};
