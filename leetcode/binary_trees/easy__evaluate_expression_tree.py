@@ -1,4 +1,4 @@
-# This is an input class. Do not edit.
+# https://www.algoexpert.io/questions/evaluate-expression-tree
 class BinaryTree:
     def __init__(self, value, left=None, right=None):
         self.value = value

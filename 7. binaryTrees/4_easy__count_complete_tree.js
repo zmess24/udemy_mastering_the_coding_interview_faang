@@ -20,8 +20,8 @@ var countNodes = function (root) {
 
 	while (left < right) {
 		let indexToFind = Math.ceil((left + right) / 2);
-		let nodeExists = nodeExists(indexToFind, height, root);
-		if (nodeExists) {
+		let exists = nodeExists(indexToFind, height, root);
+		if (exists) {
 			left = indexToFind;
 		} else {
 			right = indexToFind - 1;
