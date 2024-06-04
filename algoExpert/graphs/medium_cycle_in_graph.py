@@ -27,7 +27,6 @@ def cycleInGraph(edges):
 
     # Check for cycles in all nodes
     for node in range(len(edges)):
-        if dfs(node):
-            return True
+        if dfs(node): return True
 
     return False

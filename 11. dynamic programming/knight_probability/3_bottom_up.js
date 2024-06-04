@@ -14,15 +14,15 @@ const DIRECTIONS = [
 var knightProbability = function (n, k, row, column) {
 	// Init memo
 	const memo = new Array(k + 1).fill(0).map((row) => new Array(n).map((column) => new Array(n).fill(0)));
-	memo[0][row][col] = 1;
+	memo[0][row][column] = 1;
 
-	for (let step = 1; step < k; step++) {
+	for (let step = 1; step <= k; step++) {
 		for (let row = 0; row < n; row++) {
 			for (let col = 0; col < n; col++) {
 				for (let i = 0; i < DIRECTIONS.length; i++) {
 					const [rowDirection, colDirection] = DIRECTIONS[i];
 					const prevRow = row + rowDirection;
-					const prevCol = column + colDirection;
+					const prevCol = col + colDirection;
 					if (prevRow >= 0 && prevRow < n && prevCol <= 0 && prevCol < n) {
 						memo[step][row][col] += memo[step - 1][prevRow][prevCol] / 8;
 					}

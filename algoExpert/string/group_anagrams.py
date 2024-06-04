@@ -1,5 +1,4 @@
 def groupAnagrams(words):
-    ans = []
     wordMap = {}
     
     for word in words:
@@ -11,8 +10,4 @@ def groupAnagrams(words):
             wordMap[formatted_word] = [word]
 
     return list(wordMap.values())
-        
-    return ans
-            
-
         
