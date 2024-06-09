@@ -1,6 +1,12 @@
-# Master the Coding Interview: Big Tech (FAANG) Interviews
+# Algorithms and Data Structures
 
-Ace the Google, Amazon, Meta, Microsoft, Netflix coding interviews. Step by step guide for their toughest questions!
+This is a personal repository for coding interview problems from the following sites:
+
+-   [AlgoExpert][https://www.algoexpert.io/questions]
+-   [LeetCode][https://leetcode.com/]
+-   [HackerRank][https://www.hackerrank.com/]
+-   [CodeSignal][https://app.codesignal.com/]
+-   [Udemy][https://www.udemy.com/course/master-the-coding-interview-big-tech-faang-interviews/?couponCode=KEEPLEARNING]
 
 ## Techniques:
 
