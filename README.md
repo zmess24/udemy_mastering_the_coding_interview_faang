@@ -6,6 +6,6 @@ This is a personal repository for coding interview problem solutions from the fo
 -   [LeetCode](https://leetcode.com/)
 -   [HackerRank](https://www.hackerrank.com/)
 -   [CodeSignal](https://app.codesignal.com/)
--   [Udemy](https://www.udemy.com/course)master-the-coding-interview-big-tech-faang-interviews/?couponCode=KEEPLEARNING]
+-   [Udemy](https://www.udemy.com/cours/emaster-the-coding-interview-big-tech-faang-interviews/?couponCode=KEEPLEARNING])
 
 ## Techniques:
